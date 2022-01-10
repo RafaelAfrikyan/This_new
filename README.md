@@ -62,6 +62,6 @@ p1.compareAge(p3) ➞ "Lily is the same age as me."
 - Besides the methods on Person.prototype, babies have the ability to .play() :
 - Should return a string "Playing with x", x being the favorite toy.
 
-### 06. [xndir.js](myIssue('hello')("asa")('vds'))
+### 06. [myIssue('hello')("asa")('vds')](xndir.js)
 
 myIssue('hello')("asa")('vds')
