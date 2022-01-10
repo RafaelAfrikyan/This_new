@@ -56,3 +56,12 @@ p1.compareAge(p3) ➞ "Lily is the same age as me."
 - STRETCH: A car which runs out of fuel while driving can't drive any more distance:
 
 ### 05. [Baby constructor](babyConstructor.js)
+
+- Write a Baby constructor subclassing Person.
+- Besides name and age , Baby takes a third argument to initialize favoriteToy .
+- Besides the methods on Person.prototype, babies have the ability to .play() :
+- Should return a string "Playing with x", x being the favorite toy.
+
+### 06. [xndir.js](myIssue('hello')("asa")('vds'))
+
+myIssue('hello')("asa")('vds')

@@ -1,20 +1,20 @@
 class Person {
     constructor(name, age) {
-    this.name = name
-    this.age = age
+        this.name = name
+        this.age = age
     };
 };
 
 class Baby extends Person {
-    constructor(favoriteToy) {
+    constructor(name, age, favoriteToy) {
+        super(name, age)
         this.favoriteToy = favoriteToy
     }
     play () {
         return `Playing with ${this.favoriteToy}`
     }
-
 }
 
-const baby = new Baby('Hasy', 5);
+const baby = new Baby('Hasy', 5, 'ball');
 
-console.log(baby.age)
+console.log(baby instanceof Person)
