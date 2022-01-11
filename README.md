@@ -65,3 +65,18 @@ p1.compareAge(p3) ➞ "Lily is the same age as me."
 ### 06. [myIssue('hello')("asa")('vds')](xndir.js)
 
 myIssue('hello')("asa")('vds')
+
+### 07. [Playlist](playlist.js)
+
+``` js
+const playlist = new Playlist();
+const heyJude = new Song("Hey Jude", "The Beatles");
+const jaded = new Song("Jaded", "Aerosmith");
+playlist.add(heyJude);
+playlist.add(jaded);
+playlist.play(); // Hey Jude started to play
+playlist.next(); // Hey Jude stopped, Jaded started
+playlist.next(); // Jaded stopped, Hey Jude started
+playlist.stop(); // Hey Jude stopped
+playlist.play(); // Hey Jude started
+```
