@@ -1,10 +1,15 @@
-let exam = '';
+
 
 
 function myIssue (str) {
 
-    console.log(exam + str)
-    exam +=str;
-    return myIssue;
+    return function (acc) {
+        console.log(str + acc)
+        str += acc;
+        return myIssue(str);
+    }
 }
-myIssue('hello')("asa")('vds')
+const result = myIssue('')
+
+result('vfd')('cdx')('fds')
+
